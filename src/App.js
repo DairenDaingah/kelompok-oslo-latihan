@@ -1,20 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './helloWorld';
-
-
 
 function App() {
-  let handleClick = () => {
-    console.log("Hello World");
-    
-  }
-
   return (
-    <div>
-      <h1>Basic React</h1>
-      <HelloWorld/>
-      <button onClick={handleClick}>KlcikMe</button>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+         Halo ini yang mo pull Kelompok Oslo
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
