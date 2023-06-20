@@ -14,6 +14,7 @@ function App() {
          Halo ini yang mo pull Kelompok Oslo cuy
         </p>
         <MyButton />
+        <Footer />
       </header>
     </div>
   );
